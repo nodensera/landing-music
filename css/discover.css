@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+    margin-bottom: 5rem;
   }
   
   .discover-main-section .covers-image {
@@ -26,10 +27,11 @@
     width: 100px;
     height: 100px;
     background-color: #202027;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   
   .icon img {
+    margin-top: 0.3rem;  
     width: 40px;
   }
   

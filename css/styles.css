@@ -2,6 +2,7 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -42,6 +43,8 @@ body {
   color: inherit;
   text-decoration: none;
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .main-nav a:hover, .footer-nav a:hover  {
@@ -59,9 +62,8 @@ body {
 }
 
 .main-footer {
-  height: 70px;
+  height: 35px;
   background-color: #202027;
-  font-weight: bold;
 }
 
 .social-link img {
